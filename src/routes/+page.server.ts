@@ -1,6 +1,6 @@
 import type { PageServerLoad } from "./$types";
 
-export const csr = false;
+// export const csr = false;
 export const load: PageServerLoad = async () => {
   const url = 'https://kit-api.mcbee.dev/companies.php';
 
