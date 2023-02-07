@@ -22,13 +22,13 @@
 		{/if}
 	{/each} -->
 
-<div class="support-requests">
+<div class="support-requests" style="">
 	<div class="support-requests__content" style="align-items:center;">
 		<div class="support-requests__header">
 			<div />
 		</div>
 		{#if $companies?.length > 1}
-			<table style="width:90vw">
+			<table style="width:100%">
 				<thead>
 					<th class="statusColumn" style="width:110px;max-width: 110px;">Company id</th>
 				</thead>
